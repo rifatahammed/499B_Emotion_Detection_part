@@ -10,8 +10,8 @@ classifier =load_model('./Emotion_Detection.h5')
 
 class_labels = ['Angry','Happy','Neutral','Sad','Surprise']
 
-# cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture('demo.mp4')
+cap = cv2.VideoCapture(0)
+# cap = cv2.VideoCapture('demo.mp4')
 
 
 
